@@ -1,0 +1,23 @@
+[
+    {
+      "name": "300",
+      "speed":"10",
+      "colorOne":"blue",
+      "colorTwo":"lightblue"
+    },{
+      "name": "450",
+      "speed":"50",
+      "colorOne":"green",
+      "colorTwo":"lightgreen"
+    },{
+      "name": "550",
+      "speed":"100",
+      "colorOne":"red",
+      "colorTwo":"lightred",
+      "isSelected": true
+    }, {
+      "name": "1000",
+      "speed":"200",
+      "colorOne":"gray",
+      "colorTwo":"lightgray"
+    }]
