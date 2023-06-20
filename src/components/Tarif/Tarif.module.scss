@@ -5,15 +5,14 @@
   flex-direction: row;
 }
 
-.tarifCard{
+.tarifCard {
   border: 2px solid white;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
 
 .tarifName {
   margin-bottom: 5px;
-
 }
 .tarifSubtitle {
   font-size: 50px;
@@ -24,13 +23,13 @@ flex-direction: column;
 }
 
 .tarifSpeed {
-
   margin-bottom: 5px;
 }
 
 .selected {
   border: 2px solid red;
   background-color: yellow;
+  zoom: 1.5;
 }
 .blue {
   background-color: rgb(78, 176, 206);
