@@ -1,28 +1,11 @@
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Tarif from '../Tarif/Tarif';
 import styles from  '../Tarif/Tarif.module.scss'
 import tarifs from '../data/data.json'
+import Button from '../Button/Button'
+import stylesButton from "../Button/button.module.scss"
 
-// const tarifs = [
-//   {
-//     name: "300",
-//     speed:"10",
-//     background:"red"
-//   },{
-//     name: "450",
-//     speed:"50",
-//     background:"blue"
-//   },{
-//     name: "550",
-//     speed:"100",
-//     background:"green",
-//     isSelected: true
-//   }, {
-//     name: "1000",
-//     speed:"200",
-//     background:"yellow"
-//   }]
 
 class App extends React.Component {
   render() {
@@ -38,6 +21,7 @@ class App extends React.Component {
           colorTwo = {tarif.colorTwo}
           isSelected = {tarif.isSelected} />)}
         </div>
+        <Button name = {'Click on me'} title ="button" className={stylesButton.test}></Button>
     </div>
   );
 }
