@@ -4,10 +4,11 @@ import classNames from 'classnames';
 
 
 
+
 class Tarif extends React.Component {
     render(){
         const {name, speed,colorOne,colorTwo, isSelected}= this.props;
-        const container = classNames([`styles.${colorOne}`, styles.tarifCard, isSelected? ` ${styles.selected}`:'']);
+        const container = classNames([`${colorOne}`, styles.tarifCard, isSelected? ` ${styles.selected}`:'']);
         
         return (
             
@@ -16,7 +17,7 @@ class Tarif extends React.Component {
             <div className={styles.tarifMain}  >руб: 
                 <span className={styles.tarifSubtitle}> {name}</span>  /мес
             </div>
-            <div className={styles.tarifSpeed} styleName={colorTwo}>До {speed} Мб/сек
+            <div className={styles.tarifSpeed} styleName = {colorTwo}>До {speed} Мб/сек
             </div>
             <div className={styles.tarifVolume}>  Объем включенного трафика не ограничен
             </div>
@@ -25,4 +26,4 @@ class Tarif extends React.Component {
 export default Tarif;
 
 
-// //colorOne and colorTwo оба не работают
+// //colorOne and colorTwo оба не работают, в консоли отрисовывается значение селекторов, но не могу понять почему не работает
