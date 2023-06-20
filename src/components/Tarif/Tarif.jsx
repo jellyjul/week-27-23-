@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Tarif.module.css'
+import styles from './Tarif.module.scss'
 import classNames from 'classnames';
 
 

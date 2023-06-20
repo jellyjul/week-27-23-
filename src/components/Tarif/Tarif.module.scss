@@ -5,26 +5,26 @@
   flex-direction: row;
 }
 
-.tarifCard {
+.tarifCard{
   border: 2px solid white;
   display: flex;
-  flex-direction: column;
+flex-direction: column;
 }
 
 .tarifName {
   margin-bottom: 5px;
-}
 
+}
 .tarifSubtitle {
   font-size: 50px;
   display: block;
 }
-
 .tarifMain {
   margin-bottom: 5px;
 }
 
 .tarifSpeed {
+
   margin-bottom: 5px;
 }
 
@@ -32,7 +32,6 @@
   border: 2px solid red;
   background-color: yellow;
 }
-
 .blue {
   background-color: rgb(78, 176, 206);
 }
@@ -63,4 +62,4 @@
 
 .lightgray {
   background-color: rgb(70, 71, 73);
-}/*# sourceMappingURL=Tarif.module.css.map */
+}

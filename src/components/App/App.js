@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Tarif from '../Tarif/Tarif';
-import styles from  '../Tarif/Tarif.module.css'
+import styles from  '../Tarif/Tarif.module.scss'
 import tarifs from '../data/data.json'
 
 // const tarifs = [
