@@ -1,9 +1,9 @@
-.App {
-  margin: 2%;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
+// .App {
+//   margin: 2%;
+//   text-align: center;
+//   display: flex;
+//   flex-direction: row;
+// }
 
 .tarifCard {
   border: 2px solid white;
@@ -13,10 +13,12 @@
 
 .tarifName {
   margin-bottom: 5px;
+  color: aliceblue;
 }
 .tarifSubtitle {
   font-size: 50px;
   display: block;
+  color: aliceblue;
 }
 .tarifMain {
   margin-bottom: 5px;
@@ -27,8 +29,8 @@
 }
 
 .selected {
-  border: 2px solid red;
-  background-color: yellow;
+  border: 2px solid rgb(208, 214, 88);
+  background-color: rgb(255, 255, 179);
   zoom: 1.5;
 }
 .blue {

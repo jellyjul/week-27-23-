@@ -9,7 +9,7 @@ class Button extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            pressed:false
+            pressed:true
         }
     }
     static defaultProps = {
@@ -20,13 +20,14 @@ class Button extends React.Component {
         this.setState(
             {pressed: !this.state.pressed})
     }
+    // const clickedButton =  classNames(className={this.state.pressed ?stylesButton.test: stylesButton.clicked})
     render(){
         const {name, ...props} = this.props
         return(
             <div className={stylesButton.container}>
             <button 
-            {...props} onClick={this.handleChange}>
-               {this.state.pressed ? "Click on me":"Clicked"}
+            {...props} onClick={this.handleChange} className={classNames([this.state.pressed ?stylesButton.test: stylesButton.clicked])}>
+            {this.state.pressed ? "Click on me":"Clicked"} 
             </button>
             </div>
         )
